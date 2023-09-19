@@ -17,9 +17,15 @@ body{
 
 .icon {
     /* display: flex; */
+  
     height: 12%;
-    width: 12%;
+    width: 7%;
     padding: 12px;
+}
+.icon-img{
+  width: 94px;
+  height: 45px;
+  margin: 11px 0;
 }
 .topitems {
 
@@ -28,7 +34,7 @@ body{
     gap: 30px;
     padding: 36px;
     font-weight: 300;
-    font-size: large;
+    font-size: small;
 }
 .item {
     height: fit-content;
@@ -39,10 +45,10 @@ body{
     flex-direction: row;
     border: 1px solid black;
     border-radius: 27px;
-    padding: 9px 8px;
+    padding: 5px 8px;
 }
 #search {
-    width: 485px;
+    width: 535px;
     border-style: none;
 }
 .navdown{
@@ -61,10 +67,23 @@ body{
     background-color: white; /* Set the background color of the line */
     box-shadow: 0 4px 8px rgba(33, 32, 32, 0.879); 
   }
+
+
+
+
+
+
+  /* Main started */
+
+
+
+
+
   .img {
     /* position: absolute; */
     margin: 0px 90px;
   }
+
   .midtext {
     position: absolute;
     top: 50%;
@@ -130,6 +149,68 @@ body{
     margin: 50px 0;
     font-weight: bold;
   }
+
+
+  /* second main */
+
+  .secondmain{
+    margin-bottom: 40px;
+  }
+  .secondmaingrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0.5rem;
+}
+
+  .secondmainh1 {
+    margin-bottom: 20px ;
+
+  }
+  .secondmainitems {
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+    padding: 8px 0;
+  }
+
+
+  /* third main */
+
+  .recocards {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  .carousel1, .carousel2, .carousel3{
+    width: 250px;
+    height: 150px;
+    padding-bottom: 15px;
+  }
+  .card3 {
+    padding-left: 12px;
+  }
+
+  .recoh2 {
+    font-size: 1.01em;
+  }
+  .recop{
+    font-size: 0.7em;
+  }
+  .line {
+    text-decoration: line-through;
+  }
+  .recobtn {
+    border: transparent;
+    background-color: rgb(217, 213, 93);
+    font-size: 11px;
+    padding: 2px;
+  }
+
+
+  /* Footer started */
+
+
   footer{
     border: 1px solid black;
     background-color: black;
@@ -147,6 +228,10 @@ body{
   .foottop_left{
     width: 120px;
     height: 45px;
+  }
+  #anchor{
+    text-decoration: none;
+    color: rgba(183, 52, 183, 0.793);
   }
  .foottopbtn {
     width: 100%;
